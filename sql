@@ -36,3 +36,30 @@ organization external (
    location ('listener.log')
 )
 reject limit unlimited;
+
+
+#ALERTLOG COLLECT
+
+
+SQL> conn / as sysdba
+SQL> create view v_$alert_log as select * from x$dbgalertext;
+SQL> create public synonym v$alert_log for sys.v_$alert_log;
+SQL> grant select on v$alert_log to MON_USER;
+SQL> conn user/passwd
+
+SQL> select count(*) from v$alert_log;
+COUNT(*)
+———-
+43171
+SQL>
+Now we have the possibility to select the values from the X$DBGALERTEXT table in SYS schema.
+With the following select statement you get all ORA- errors during the last hour:
+SQL> show user;
+USER is “sys”
+SQL> SELECT
+     to_char(originating_timestamp,’DD.MM.YYYY HH24:MI:SS’),
+     message_text
+     FROM
+     v$alert_log
+    WHERE originating_timestamp > systimestamp – 1/24
+    and REGEXP_LIKE (message_text, ‘(ORA-)’);

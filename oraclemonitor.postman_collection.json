@@ -1,0 +1,526 @@
+{
+	"info": {
+		"_postman_id": "e90192cd-7200-4db5-a3f8-a677c3688a82",
+		"name": "oraclemonitor",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://192.168.1.159:5600/sysinfo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.159:5600/sysinfo",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"159"
+					],
+					"port": "5600",
+					"path": [
+						"sysinfo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.1.159:5600/basicinfo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.159:5600/basicinfo",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"159"
+					],
+					"port": "5600",
+					"path": [
+						"basicinfo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.1.159:5600/temptbslist",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.159:5600/temptbslist",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"159"
+					],
+					"port": "5600",
+					"path": [
+						"temptbslist"
+					]
+				},
+				"description": "http://192.168.104.226:5600/temptbslist"
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.1.159:5600/tbslist",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.159:5600/tbslist",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"159"
+					],
+					"port": "5600",
+					"path": [
+						"tbslist"
+					]
+				},
+				"description": "http://192.168.104.226:5600/tbslist"
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.1.159:5600/defaulttbslist",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "http://192.168.1.159:5600/defaulttbslist"
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.1.159:5600/userspaceused",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.159:5600/userspaceused",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"159"
+					],
+					"port": "5600",
+					"path": [
+						"userspaceused"
+					]
+				},
+				"description": "http://192.168.1.159:5600/userspaceused"
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.1.159:5600/tbsquota",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.159:5600/tbsquota",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"159"
+					],
+					"port": "5600",
+					"path": [
+						"tbsquota"
+					]
+				},
+				"description": "http://192.168.1.159:5600/tbsquota"
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.1.159:5600/fralist",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.159:5600/fralist",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"159"
+					],
+					"port": "5600",
+					"path": [
+						"fralist"
+					]
+				},
+				"description": "http://192.168.1.159:5600/tbsquota"
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.1.159:5600/recolist",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.159:5600/recolist",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"159"
+					],
+					"port": "5600",
+					"path": [
+						"recolist"
+					]
+				},
+				"description": "http://192.168.1.159:5600/recolist"
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.1.159:5600/ssh",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.159:5600/ssh",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"159"
+					],
+					"port": "5600",
+					"path": [
+						"ssh"
+					]
+				},
+				"description": "http://192.168.1.159:5600/ssh"
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.1.159:5600/statgather",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "http://192.168.1.159:5600/statgather"
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.1.159:5600/datafilelist",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.159:5600/datafilelist",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"159"
+					],
+					"port": "5600",
+					"path": [
+						"datafilelist"
+					]
+				},
+				"description": "http://192.168.1.159:5600/datafilelist"
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.1.159:5600/loginfo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.159:5600/loginfo",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"159"
+					],
+					"port": "5600",
+					"path": [
+						"loginfo"
+					]
+				},
+				"description": "http://192.168.1.159:5600/loginfo"
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.1.159:5600/alertlog",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.159:5600/alertlog",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"159"
+					],
+					"port": "5600",
+					"path": [
+						"alertlog"
+					]
+				},
+				"description": "http://192.168.1.159:5600/alertlog"
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.1.159:5600/rmanstartnstop",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "http://192.168.1.159:5600/rmanstartnstop"
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.1.159:5600/rmanrunning",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.159:5600/rmanrunning",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"159"
+					],
+					"port": "5600",
+					"path": [
+						"rmanrunning"
+					]
+				},
+				"description": "http://192.168.1.159:5600/rmanrunning"
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.1.159:5600/rmanhist",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.159:5600/rmanhist",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"159"
+					],
+					"port": "5600",
+					"path": [
+						"rmanhist"
+					]
+				},
+				"description": "http://192.168.1.159:5600/rmanhist"
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.1.159:5600/listenerlog",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.159:5600/listenerlog",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"159"
+					],
+					"port": "5600",
+					"path": [
+						"listenerlog"
+					]
+				},
+				"description": "http://192.168.1.159:5600/listenerlog"
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.1.159:5600/lockedobj",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.159:5600/lockedobj",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"159"
+					],
+					"port": "5600",
+					"path": [
+						"lockedobj"
+					]
+				},
+				"description": "http://192.168.1.159:5600/lockedobj"
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.1.159:5600/pgainfo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.159:5600/pgainfo",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"159"
+					],
+					"port": "5600",
+					"path": [
+						"pgainfo"
+					]
+				},
+				"description": "http://192.168.1.159:5600/pgainfo"
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.1.159:5600/asmdiskinfo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.159:5600/asmdiskinfo",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"159"
+					],
+					"port": "5600",
+					"path": [
+						"asmdiskinfo"
+					]
+				},
+				"description": "http://192.168.1.159:5600/asmdiskinfo"
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.1.159:5600/asmstatinfo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.159:5600/asmstatinfo",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"159"
+					],
+					"port": "5600",
+					"path": [
+						"asmstatinfo"
+					]
+				},
+				"description": "http://192.168.1.159:5600/asmstatinfo"
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.1.159:5600/racstat",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.159:5600/racstat",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"159"
+					],
+					"port": "5600",
+					"path": [
+						"racstat"
+					]
+				},
+				"description": "http://192.168.1.159:5600/racstat"
+			},
+			"response": []
+		},
+		{
+			"name": "http://192.168.1.159:5600/statgather",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.1.159:5600/statgather",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"159"
+					],
+					"port": "5600",
+					"path": [
+						"statgather"
+					]
+				},
+				"description": "http://192.168.1.159:5600/statgather"
+			},
+			"response": []
+		}
+	]
+}

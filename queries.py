@@ -49,9 +49,7 @@ alert_log_View = """SELECT host_id,record_id,error_instance_id,error_instance_se
 
 
 
-locked_obj = """
-
-select
+locked_obj = """select
    c.owner,
    c.object_name,
    c.object_type,
@@ -67,10 +65,7 @@ from
 where
    b.sid = a.session_id
 and
-   a.object_id = c.object_id;
-
-
-"""
+   a.object_id = c.object_id"""
 
 asm_usage = """SELECT
     name                                     group_name
@@ -146,7 +141,7 @@ active_instance = "SELECT * FROM V$ACTIVE_INSTANCES"
 schemastatgather = """
 BEGIN
       DBMS_STATS.gather_schema_stats (
-      ownname => 'rimon',
+      ownname => 'shadman',
       ESTIMATE_PERCENT  => dbms_stats.auto_sample_size,
       degree   => 4);
 END;

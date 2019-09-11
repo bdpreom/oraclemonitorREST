@@ -1,0 +1,5 @@
+pip3 install Flask-RESTful
+pip3 install jumpssh
+pip3 install configparser
+pip3 install cx_Oracle
+pip3 install psutil
